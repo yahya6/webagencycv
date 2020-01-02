@@ -1,0 +1,376 @@
+
+.blaze
+{
+	font-size: 50px;
+	margin-left:100px; 
+	margin-top: 150px;
+
+
+}
+.statut
+{
+	font-size: 40px;
+	/border-bottom: solid 3px #ffc700;
+	border-bottom-lenght: 2px;
+	
+
+}
+.taf
+{
+	/*text-decoration: underline;*/
+      border-bottom: solid 3px #ffc700;
+      display: inline;/**/
+      padding-bottom: 3px;/*espace entre le texte et la ligne*/
+
+}
+
+.date
+{
+	color: #ffc700;
+	margin-left: 100px;
+	margin-top: 70px;
+
+}
+
+span.nom
+{
+	color: #ffc700;
+	font-size: 75px;
+
+
+	
+}
+
+h2 span.Integrateur
+{
+	color: #ffc700;
+	border-bottom: solid 3px #ffc700;
+
+}
+
+.gilles
+{
+	font-size: 75px;
+}
+
+
+
+i.fab /*youtube*/
+{
+    color: #0d0e0f;
+    font-size: 100px;
+    padding-left: 150px;/*marge gauche*/
+    padding-right: 50px;
+
+
+}
+
+i.far/*football*/
+ {
+    color: #0d0e0f;
+    font-size: 100px;
+    padding-right: 50px;
+}
+
+i.fas/*haltere*/
+
+{
+	 color: #0d0e0f;
+    font-size: 30px;
+    
+
+
+}
+
+i.fa
+{
+	 color: #ffc700;
+    font-size: 20px;
+}
+
+#icone1
+{
+	 color: #0d0e0f;
+    font-size: 100px;
+    padding-right: 50px;
+    font-weight: 700;
+}
+
+
+
+h2/*le titres h2  générale*/
+{
+	border-bottom: 2px solid  #ffc700;
+
+}
+i span /*le mot formation */
+{
+	color: black; 
+	padding-left: 25px;
+	font-size: 30px;
+}
+
+
+
+
+.formation
+{
+	border-bottom: 5px solid  #ffc700;
+	margin-top: 120px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 17px;
+
+}
+
+.valise
+{
+	border-bottom: 5px solid  #ffc700;
+	margin-left: 100px;/*decalage de la marge*/
+	margin-right: 100px;
+	padding-bottom: 17px;
+	
+
+}
+
+.recommendations
+{
+	border-bottom: 5px solid  #ffc700;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 17px;
+	
+
+}
+	
+
+
+
+
+.grid/* diviser le cv en 2 colones*/
+{
+	display: grid;
+	grid-template-columns: 30% 70%;
+
+	/*grid-template-columns: repeat(2,50%);/*le nombre est defini permet de choisir le nombre de colonne et le deuxieme permet la largeur du item */
+	/*grid-template-columns: 1fr 2fr 1fr;*//*FRACTION DE TOUTES LES COLONNES*/
+	/*grid-gap: 1rem;/*l'espace entre les colonnes */
+
+}
+
+/*.grid1
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+
+	/*grid-template-columns: repeat(2,50%);/*le nombre est defini permet de choisir le nombre de colonne et le deuxieme permet la largeur du item */
+	/*grid-template-columns: 1fr 2fr 1fr;*//*FRACTION DE TOUTES LES COLONNES*/
+	grid-gap: 1rem;/*l'espace entre les colonnes */
+
+}*/
+
+
+
+/*.grid2/*elle provoque la difficulté de bouger la photo*/
+/*{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	font-size: 10px;
+}*/
+
+
+
+
+/*partie 2*/
+
+
+.image-cropper {
+
+  border-radius:100%;
+    
+}
+
+img { 
+	width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px grey;
+    margin-left: 200px;
+    margin-top: 100px;
+
+	
+}
+
+.radius {
+	 /*display: block;*/
+ 	margin: 20px 0px 0px 100px;
+ 	box-shadow: 5px 2px #888888;
+  
+ 
+  border-radius: 50px;
+
+}
+
+
+
+.CONTACT
+{
+	background: #0d0e0f;
+	color: #ffc700;
+	text-align: center;
+}
+
+ul
+{
+	list-style-type: none;
+	margin-left: 20px;
+	
+}
+
+.info
+{
+	margin-top: 50px;
+	margin-left: 20px;
+	
+}
+
+.about
+{
+	background: #0d0e0f;
+	color: #ffc700;
+	text-align: center;
+}
+
+.about1 /*probleme de centralisation du texte apres la mise en page */
+{
+	width: 400px;
+	padding: 0px 30px 0px 140px;*/
+
+}
+
+
+.yellow
+{
+	background: #ffc700;
+	font-size: 30px;
+
+}
+
+.text
+{
+	font-size: 30px;
+	padding-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
+.text1
+{
+	font-size: 30px;
+	padding-left: 100px;
+	
+
+}
+
+.text2
+{
+	font-size: 30px;
+	padding-left: 300px;
+	
+
+}
+
+
+.aboutme
+{
+	margin-top: 750px;*/
+}
+
+.loisirs
+{
+	 margin-top: 850px;
+}
+
+/* RESPONSIVE*/
+
+@media(max-width: 1814px)
+{
+	.yellow
+	{
+		background: #ff0000;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.grid/* diviser le cv en 2 colones*/
+	{
+	display: grid;
+	grid-template-columns:  100%;
+
+	/*grid-template-columns: repeat(2,50%);/*le nombre est defini permet de choisir le nombre de colonne et le deuxieme permet la largeur du item */
+	/*grid-template-columns: 1fr 2fr 1fr;*//*FRACTION DE TOUTES LES COLONNES*/
+	/*grid-gap: 1rem;/*l'espace entre les colonnes */
+
+	}
+
+	img{
+		float: center;
+	}
+	.about1
+	{
+		margin-left: 500px;
+	}
+
+	.text2
+	{
+		display: none;/*disposition*/
+		visibility: hidden;/* effacer texte*/
+	}
+	
+}	
+
+@media(max-width: 1039px)
+{
+	.about1
+	{
+		margin-left: 200px;
+	}
+
+
+
+}
+
+@media(max-width: 804px)
+{
+	.about1
+	{
+		margin-left: 60px;
+	}
+
+
+}
+
+@media(max-width: 614px)
+{
+	.about1
+	{
+		margin-left: 0px;
+	}
+
+	img
+	{
+		margin-left: 100px;
+	}
+
+	.text2
+	{
+	font-size: 30px;
+	/*padding-left: 300px;*/
+	visibility: hidden;
+	
+
+	}
+
+
+}
